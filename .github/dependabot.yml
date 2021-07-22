@@ -17,3 +17,7 @@ updates:
   commit-message:
     prefix: chore
     include: scope
+- package-ecosystem: gitsubmodule
+  directory: /
+  schedule:
+    interval: weekly
