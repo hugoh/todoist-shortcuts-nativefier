@@ -1,6 +1,6 @@
 // Returns the count for the 'Today' list (defaults to 0)
 function currentCount() {
-  return document.querySelector('#top_filters > li:nth-child(2) > span.item_content > small').innerText || 0;
+  return document.querySelector('#top_filters > li:nth-child(2) .item_counter').innerText || 0;
 }
 
 // Returns the title without any annotated count
