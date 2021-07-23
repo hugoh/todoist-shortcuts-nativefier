@@ -10,9 +10,7 @@ This project uses [nativefier](https://github.com/jiahaog/nativefier) to create 
 
 This allows us to inject the `todoist-shortcuts` source code into the application providing the desktop application with keyboard shortcuts and navigation.
 
-The _badge count_ didn't work (i.e., number of tasks in _Today_) so additional JavaScript was needed to propagate the count of tasks into the title of the window. With the task count in the title of the window, `nativefier` can pick it up and display the application with a proper badge count (and bounce on changes).
-
-Unfortunately, `nativefier` has an issue with [injecting multiple JavaScript files](https://github.com/jiahaog/nativefier/issues/458). As a workaround, we concatenate the JavaScript into one file before _injecting it_ (which fortunately works with the JavaScript we have).
+This project is a fork of [kevinjalbert/todoist-shortcuts-nativefier](https://github.com/kevinjalbert/todoist-shortcuts-nativefier).
 
 ## Usage
 
