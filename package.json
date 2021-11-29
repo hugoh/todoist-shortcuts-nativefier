@@ -1,6 +1,6 @@
 {
   "dependencies": {
-    "nativefier": "^45.0.0"
+    "nativefier": "^45.0.6"
   },
   "scripts": {
     "buildApplication": "./build.sh",
